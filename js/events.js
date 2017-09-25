@@ -34,7 +34,7 @@ function pressIt() {
 
   $('document').on("keydown", function() {
 
-    if(key.which === 69) {
+    if(key.which === 71) {
 
       alert("You have pressed the G key.");
 
