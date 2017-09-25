@@ -30,6 +30,20 @@ function submitIt() {
 
 }
 
+function pressIt() {
+
+  $('document').on("keydown", function() {
+
+    if(key.which === 69) {
+
+      alert("You have pressed the G key.");
+      
+    }
+    
+  })
+  
+}
+
 $(document).ready(function(){
 
 // call functions here
