@@ -5,6 +5,16 @@ function getIt() {
   $('p').on("click", function() {
 
     alert("Hey!");
+
+  })
+
+}
+
+function frameIt() {
+
+  $('body').on("load", function() {
+
+    $('body img').addClass("tasty");
     
   })
   
