@@ -14,7 +14,7 @@ function frameIt() {
 
   $('body').on("load", function() {
 
-    $('body img').addClass("tasty");
+    $('body img').addClass(".tasty");
 
   })
 
