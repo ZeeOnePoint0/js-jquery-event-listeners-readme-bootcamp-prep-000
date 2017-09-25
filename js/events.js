@@ -37,11 +37,11 @@ function pressIt() {
     if(key.which === 69) {
 
       alert("You have pressed the G key.");
-      
+
     }
-    
+
   })
-  
+
 }
 
 $(document).ready(function(){
